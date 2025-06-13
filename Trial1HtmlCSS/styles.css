@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* This import is from GOOGLE FONTS */
+
+/* This is called an external CSS. This is recommended to use */
+/* Must be linked from the html file to be effective */
+h1 {
+  color: rgb(187, 11, 11);
+  font-size: 24px;
+
+  /* To use the alpha you must use the "rgb" + "a" formant like: */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* The 4th value inside the parenthesis decides the transparency
+    of that property. It only starts from 0-1 */
+}
+
+/* The "px" or pixels is called HARDCODED VALUES */
+/* This means that the width and height will be fixed */
+/* It's not dynamic and it's not going to be reactive */
+/* div {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+} */
+
+div {
+  background-color: rgba(0, 10, 20, 0.8);
+  width: 100%;
+  max-width: 800px;
+  /* hiehgt: 100vh */
+  /* vx is for viewport height. This means that in our code 
+  it will take up all 100% of the screen you are looking at it from  */
+
+  /* Border */
+  
+}
+
+/* The best practice for font-family is by adding alternative fonts as a fail safe
+    in case the first font cannot be recognized by the user's browser */
+p {
+  color: purple;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Inter, sans-serif, Arial, Helvetica;
+}

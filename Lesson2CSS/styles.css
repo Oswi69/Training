@@ -1,0 +1,25 @@
+/* To call out an ID you need to first add a hashtag (#) before
+the id name or value*/
+/* An ID selector has the most specificty in the eyes of css,
+hence it is the most prioritized. */
+#paragraph-1 {
+    color: green;
+}
+
+/* To target class names you need to first add a dot (.) and
+the class name next to it */
+/* If two elements have the same class value or name then the
+styles made for that class will be applied to both of the elements */
+/* This is a class selector which has higher specificity than the
+generic selectors */
+.paragraph {
+  color: red;
+}
+
+/* Elements who have class names and are styled will be immune
+to the styling of the general tag name */
+/* This is a generic selector which targets all <p> elements */
+p {
+    color: blue;
+}
+

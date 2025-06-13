@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* Import from google fonts */
+
+div {
+  width: 100%;
+  /* The use of percentage value for width sets on how the element
+  occupies the space. The max-width is used to control this. In this
+  case the max-width is 500 pixels and the width property takes
+  100% of this 500pixel's space */
+  max-width: 500px;
+  height: 100vh;
+  /* the use vh or "viewport height" sets the height of the element
+  to 100% of the page which makes it responsive*/
+  background-color: rgba(74, 187, 241, 0.7);
+  /* rgb makes use of hex color codes, and "a" at the end sets
+  the transparency of the property and it starts from 0-1. */
+
+  /* Border */
+  border: 2px solid blueviolet;
+}
+
+p {
+  color: red;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  /* sans-serif will act as a fail safe if ever the user's browser
+  cannot read the Inter font */
+  font-weight: 650;
+  /* the font-weight is how bold the is going to be */
+}

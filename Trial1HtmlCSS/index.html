@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Internal Css -->
+    <!-- Internal CSS must be inside the <head></head> -->
+    <style>
+      /* To call out elements you just put the tag */
+      /* h1 {
+            color: red;
+            font-size: 12px;
+
+        } */
+    </style>
+
+    <!-- Must be within the head element -->
+    <!-- This is used to link to the external css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- This is an inline CSS -->
+    <!-- <h1 style="color: pink">Hello World</h1> -->
+    <h1>Hello World</h1>
+
+    <!-- This are called CSS Properties -->
+    <p>This are the most used CSS Properties</p>
+    <label>Color</label>
+    <ul>
+      <li>background-color</li>
+      <li>color</li>
+    </ul>
+    <label>Size</label>
+    <ul>
+      <li>width</li>
+      <li>length</li>
+    </ul>
+    <label>Fonts</label>
+    <ul>
+      <li>font-family</li>
+      <li>font-size</li>
+      <li>font-weight</li>
+    </ul>
+    <label>Border</label>
+    <ul>
+      <li>border</li>
+    </ul>
+
+    <!-- Pixels / Hardcoded Values -->
+    <h2>Hard Coded Values</h2>
+    <p>
+      This are what you see when setting the height or width of something. Like
+      widht: 200px for example. So the use of "px" is actually bad since its not
+      dynamic and it makes your element unresponsive.<br /><br />
+      So the best way to do this is to use "Percetage". [width: 100%] and then
+      use the "px" value on "max-width" like:<br /><br />
+      width: 100% and max-width: 400px<br /><br />
+      This makes the element responsive but with the use of the max-width you
+      can set it how ever you like.
+    </p>
+
+    <!-- Fonts Import -->
+    <h4>Import Fonts</h4>
+    <h5>You go to Google Fonts</h5>
+    <a href="https://fonts.google.com" target="_blank">Here</a>
+
+
+      <label><br>Height tip you must remember</label>
+      <p>
+        It's not the best practice to include height in you css, since text
+        might leak and it will look horrendous. You must only use the height
+        property when making a landing page.
+      </p>
+
+    <div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+        ullam, fugiat pariatur explicabo porro enim, culpa accusamus rerum
+        deserunt commodi, reiciendis debitis libero in adipisci ipsum quam
+        cupiditate corrupti sequi dolorem eveniet magnam voluptas id laudantium
+        voluptate? Magnam, earum architecto.
+      </p>
+    </div>
+  </body>
+</html>

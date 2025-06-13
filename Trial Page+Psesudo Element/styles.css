@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+p {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+.title {
+  font-size: 35px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(120, 120, 120);
+}
+
+.title::after {
+  content: "Kaps";
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+}
+
+.title::before {
+  content: "Name:";
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+}
+
+ul {
+    margin-top: 2px;
+}
+
+.hobbies {
+    background-color: gray;
+    padding: 10px;
+    width: 100%;
+    max-width: 180px;
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+button {
+    transition: 300ms;
+}
+
+button:hover {
+    opacity: .467;
+}
+
+.submit {
+    margin-top: 5px;
+}
+
+.formclass {
+    margin: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 24px; /* smaller title font size for mobile */
+    padding: 10px; /* add some padding if needed */
+  }
+
+  ul {
+    margin-top: 5px; /* slightly more margin for better spacing */
+  }
+
+  .hobbies {
+    padding: 8px; /* reduce padding for smaller screens */
+    max-width: 100%; /* make sure it takes full width */
+    margin: 8px; /* adjust margin for mobile */
+  }
+
+  button {
+    font-size: 14px; /* ensure buttons are readable on small screens */
+    padding: 8px 12px; /* adjust button padding */
+  }
+
+  .submit {
+    margin-top: 10px; /* increase margin if needed for better spacing */
+  }
+
+  .formclass {
+    margin: 5px; /* reduce margin for compactness */
+  }
+
+  p {
+    font-size: 14px; /* smaller paragraph text */
+  }
+}

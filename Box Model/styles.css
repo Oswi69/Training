@@ -1,0 +1,20 @@
+/* Box models */
+
+/* Every Element has a BOX MODEL */
+/* To call out elements with class you need to: */
+.box {
+  width: 100%;
+  max-width: 300px;
+  border: black solid 4px;
+  background-color: gray;
+  /* Instead of writing properties of the sides
+    of an element one by one you can use the shorthand method
+    similar to border. */
+  /* So the sequence is of a clock, clockwise. From top-right
+    -bottom-left */
+  padding: 25px 25px 25px 25px;
+  margin: 25px 0px;
+  /* This also applies to margin */
+  box-sizing: border-box;
+  /* Best practice to use box-sizing */
+}
